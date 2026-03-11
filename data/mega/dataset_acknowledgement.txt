@@ -1,0 +1,2 @@
+# splits from thermompnn-D
+# use test-split to evaluate model

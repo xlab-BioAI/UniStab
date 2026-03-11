@@ -1,0 +1,46 @@
+data:
+  splits: [train, val]
+
+data_loc:
+  "megascale_csv": "data/all.csv"  
+  "megascale_splits": "data/splits.pkl"
+
+model:
+  pooling_method: "GlobalMaskWeightedAttentionPooling1D"
+  lora:  
+    enabled: true
+    rank: 8              
+    alpha: 16.0          
+    dropout: 0.1         
+    target_modules: 
+      - "proj"           
+      - "o_proj" 
+      - "g_proj"
+      - "mlp"           
+    
+  structure_encoder:
+    hidden_dim: 256
+    num_heads: 8
+    num_blocks: 3
+    dropout: 0.2
+
+train:
+  batch_size: 64      
+  num_workers: 4     
+  lr: 1e-4          
+  weight_decay: 0.0
+  epochs: 50
+  patience: 10
+  save_dir: experiment
+  lr_scheduler:
+    type: ReduceLROnPlateau
+    factor: 0.5
+    patience: 5
+    min_lr: 1e-6
+  accumulate_grad_batches: 8  
+
+hardware:
+  accelerator: gpu
+  devices: [0,1,2,3]      
+  strategy: ddp
+  precision: 32      
