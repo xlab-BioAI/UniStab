@@ -5,6 +5,12 @@
 [![Hydra](https://img.shields.io/badge/Hydra-1e90ff?logo=dropbox&logoColor=white)](https://github.com/facebookresearch/hydra)
 [![arXiv](https://img.shields.io/badge/arXiv-TBD-B31B1B)](https://arxiv.org/) <!-- TODO: 更新论文链接 -->
 
+![UniStab model overview](assets/model.png)
+
+## Introduction
+
+UniStab is a unified deep learning framework that predicts protein stability changes across **single-point**, **multi-point**, and **indel** mutations in an end-to-end manner. 
+
 ## Installation
 ```bash
 git clone https://github.com/xtanh/UniStab.git  
