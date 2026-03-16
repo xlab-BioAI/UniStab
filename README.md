@@ -18,7 +18,7 @@ git clone https://github.com/xlab-BioAI/UniStab.git
 
 ## Requirements
 ```bash
-conda env create -f environment.yml  
+conda env create -f env.yaml  
 conda activate UniStab
 ```
 
