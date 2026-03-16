@@ -13,7 +13,7 @@ UniStab is a unified deep learning framework that predicts protein stability cha
 
 ## Installation
 ```bash
-git clone https://github.com/xtanh/UniStab.git  
+git clone https://github.com/xlab-BioAI/UniStab.git
 ```
 
 ## Requirements
