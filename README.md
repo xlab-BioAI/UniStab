@@ -40,11 +40,6 @@ You can modify training parameters in `config/default.yaml`.
 sh infe.sh
 ```
 
-## Data
-
-## License
-
-
 ## Acknowledgments
 
 We gratefully acknowledge the following projects and their contributions:
@@ -95,3 +90,8 @@ Parts of the codebase are adapted from these excellent works.
 }
 ```
 
+
+## License
+```
+MIT
+```
