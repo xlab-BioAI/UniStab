@@ -56,7 +56,18 @@ Parts of the codebase are adapted from these excellent works.
 
 ## Citation
 ```bibtex
-% TODO: 论文引用条目
+@article{10.1039/d6sc02103d,
+    author = {Tan, Hong and Lin, Shenggeng and Xiong, Yi},
+    title = {A unified predictor of protein stability changes across all mutation types via implicit structure learning},
+    journal = {Chemical Science},
+    year = {2026},
+    month = {08},
+    abstract = { Prediction of protein stability change caused by amino acid substitutions or indels (insertions/deletions) is crucial for protein engineering. While current models excel at single-point substitutions, they struggle with multi-point mutations and indels due to simplistic additivity assumptions and the inability to model backbone conformational changes. To address these limitations, we introduce UniStab, an end-to-end framework for predicting stability changes across all mutation types. By leveraging the implicit geometric reasoning of a pre-trained folding model, UniStab effectively captures non-additive epistatic interactions and local backbone rearrangements without the prohibitive cost of explicit structure generation. Evaluated on a comprehensive benchmark, UniStab demonstrates state-of-the-art performance, particularly in the challenging scenarios of multi-point mutations and indels. Beyond predictive accuracy, UniStab provides interpretable structural insights and effectively guides the design of stabilized variants, facilitating its potential utility in rational protein engineering. },
+    issn = {2041-6520},
+    doi = {10.1039/d6sc02103d},
+    url = {https://doi.org/10.1039/d6sc02103d},
+    eprint = {https://pubs.rsc.org/sc/article-pdf/doi/10.1039/d6sc02103d/13623148/d6sc02103d.pdf},
+}
 ```
 
 ## Reference
