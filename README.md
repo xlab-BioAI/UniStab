@@ -3,7 +3,8 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![Lightning](https://img.shields.io/badge/Lightning-792EE5?logo=lightning&logoColor=white)
 [![Hydra](https://img.shields.io/badge/Hydra-1e90ff?logo=dropbox&logoColor=white)](https://github.com/facebookresearch/hydra)
-[![arXiv](https://img.shields.io/badge/arXiv-TBD-B31B1B)](https://arxiv.org/) <!-- TODO: 更新论文链接 -->
+[![Chemical Science](https://img.shields.io/badge/Chemical%20Science-10.1039%2FD6SC02103D-B31B1B)](https://doi.org/10.1039/D6SC02103D)
+
 
 ![UniStab model overview](assets/model.png)
 
